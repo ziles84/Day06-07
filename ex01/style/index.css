@@ -1,0 +1,42 @@
+h1 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+h3 {
+  padding: 10px;
+  margin: 1px;
+  text-align: left;
+  color: #03a5fc;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 50px;
+  justify-items: center;
+  margin: 0 15% 0 15%;
+}
+
+.gallery {
+  width: 100%;
+  float: left;
+  padding: 0;
+  text-align: center;
+}
+
+.title {
+  padding: 10px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 10px 10px;
+  text-align: justify;
+  font-size: 17px;
+}
